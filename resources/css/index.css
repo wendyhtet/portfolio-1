@@ -1,0 +1,396 @@
+* {
+  margin: 0;
+  padding: 0;
+  opacity: 1;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-nav {
+  text-align: center;
+  padding-top: 20px;
+  word-spacing: 50px;
+  font-family: 'Playfair Display', serif;
+  font-size: 1em;
+  opacity: .5;
+}
+
+.intro h5{
+font-family: 'playfair display', sans-serif;
+font-size: 1.5em;
+text-align: center;
+margin-top: 10%;
+}
+
+.intro {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.title h2{
+  padding-top: 1em;
+}
+
+.banner {
+  background-image: url("https://media.giphy.com/media/l41YrvqtJFqHOoV8I/giphy.gif");
+  overflow: hidden;
+}
+
+.banner h1{
+  padding-top: 70px;
+}
+.banner {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 400px;
+}
+
+h1,
+.name,
+.contact {
+font-family: 'playfair display', serif;
+font-style: bold;
+font-size: 2em;
+}
+
+.title,
+h5,
+.work-scroll h5 {
+  text-transform: uppercase;
+  font-size: .7em;
+  font-family: 'raleway', sans-serif;
+  color: grey;
+  text-align: center;
+}
+
+.work-scroll {
+  width: 50%;
+  height: 50px;
+  padding-top: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.work-scroll img {
+  height: 50%;
+  width: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1em;
+}
+
+.port-links {
+  display: flex;
+  flex-flow:  wrap;
+}
+
+.container1,
+.container2,
+.container3{
+  min-width: 70%;
+  height: auto;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.container1 img,
+.container2 img,
+.container3 img {
+  max-width: 90%;
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex: 1 1 300px;
+}
+
+.clip-header1,
+.clip-header2,
+.clip-header3,
+.clip-header4 {
+  margin-top: 10em;
+  margin-bottom: 2em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clip-header4 {
+  margin-top: 5em;
+}
+
+.clip-header1 h2,
+.clip-header2 h2,
+.clip-header3 h2,
+p {
+  font-family: "raleway", sans-serif;
+}
+
+
+#driftlogo {
+  width: 200px;
+  height: auto;
+  display: inline-block;
+}
+
+.port-cont {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container-mt,
+.container-ds,
+.container-gk {
+  max-width: 30%;
+  height: auto;
+  overflow: hidden;
+  display: inline-flex;
+  flex: 1 1 100px;
+}
+
+.container-mt img,
+.container-ds img,
+.container-gk img {
+  max-width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#about-me {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top:  7em;
+  align-items: center;
+}
+
+.left {
+  background-color: rgb(255, 224, 246);
+  width: 40%;
+  margin-left: 2em;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-shrink: 1;
+  min-width: 350px;
+  height: 500px;
+  min-height: 50%;
+}
+
+.img-container {
+  height: 500px;
+  width: auto;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 1;
+  justify-content: center;
+
+}
+
+.img-container img {
+  max-height: 100%;
+  max-width: 100%;
+  min-width: 470px;
+}
+
+.hello h1 {
+  position: relative;
+  bottom: 1em;
+  font-size: 3.5em;
+}
+
+
+.summary {
+  color: darkgray;
+  position: relative;
+  bottom: 4em;
+  padding-left: 3em;
+}
+
+.exp {
+  padding-left: 3em;
+  position: relative;
+  bottom: 4em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+
+.contact h2 {
+  font-size: .7em;
+  font-family: 'raleway', sans-serif;
+}
+
+.contact{
+  text-align: center;
+  padding-bottom: 3em;
+}
+.contact h1,
+.contact h2{
+  padding-top: 4em;
+
+}
+.socials {
+  top:0;
+}
+.socials h3 {
+  display: inline-block;
+  font-family: "raleway", sans-serif;
+}
+
+.socials ul {
+  word-spacing: 10em;
+  text-align: center;
+}
+
+.banner2{
+  height: 700px;
+  margin-top: 3em;
+  background-image: url("https://media.giphy.com/media/TlK63EChAGgxq7kTcFW/giphy.gif");
+  overflow: hidden;
+}
+
+
+
+
+@media only screen and (max-width: 480px) {
+  body {
+    margin-bottom: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  h1,
+  h2 {
+    font-size: 1em;
+  }
+
+  .banner {
+    background-repeat: repeat;
+    background-size: 50%;
+    padding-bottom: 60%;
+    padding-top: 50%;
+    margin-bottom: 4em;
+    margin-top: 2em;
+  }
+
+  .intro {
+    font-size: .6em;
+    height: 80%;
+    margin-bottom: 20%;
+  }
+
+  #driftlogo {
+    width: 30%;
+    height: auto;
+  }
+
+  .work-scroll h5 {
+    font-size: .7em;
+  }
+
+  .work-scroll img {
+    margin-bottom: 5em;
+    width: 1em;
+    height: auto;
+    padding-top: .3em;
+  }
+
+
+  .clip-header1,
+.clip-header2,
+.clip-header3,
+.clip-header4 {
+  margin-top: 5em;
+}
+
+}
+
+@media only screen and (max-width: 886px) {
+
+  #about-me {
+    margin-top: 3.5em;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hello h1 {
+    font-size: 2.5em;
+    width: 350px;
+  }
+
+  .summary {
+    font-size: .7em;
+    text-align: left;
+    margin-top: 20px;
+  }
+
+  .exp {
+    margin-top: 3em;
+  }
+
+  p {
+    font-size: .7em;
+  }
+  .left {
+    height: 20%;
+    margin: 0;
+    max-width: 300px;
+  }
+
+  .img-container {
+    display: none;
+  }
+
+  .phimg {
+    display: flex;
+    justify-content: center;
+    position: relative;
+   
+  }
+
+  .phimg img {
+    height: auto;
+    width: 350px;
+  }
+}
+
+
+@media only screen and (min-width: 887px) {
+  .phimg {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 893px) and (max-width: 1097px) {
+  .hello h1 {
+    font-size: 2em;
+  }
+  .summary {
+    font-size: .7em;
+    margin-bottom: 1em; 
+    margin-top: 1em;
+  }
+
+  .banner2 {
+    margin-top: 3em;
+    height: 2000px;
+  }
+}
