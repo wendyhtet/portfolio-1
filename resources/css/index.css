@@ -314,6 +314,12 @@ p {
     height: auto;
     padding-top: .3em;
   }
+  .socials {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  }
 
 
   .clip-header1,
