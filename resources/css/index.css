@@ -317,6 +317,9 @@ p {
   .socials {
     margin-left: 1em;
     margin-right: 1em;
+    display: flex;
+    flex-direction: vertical;
+    text-align: center;
   }
 
   }
