@@ -249,6 +249,8 @@ p {
 }
 .socials {
   top:0;
+  margin-left: auto;
+  margin-right: auto;
 }
 .socials h3 {
   display: inline-block;
