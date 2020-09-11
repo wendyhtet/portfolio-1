@@ -272,7 +272,7 @@ p {
 
 
 
-@media only screen and (max-width: 1242px) {
+@media only screen and (max-width: 750px) {
   body {
     margin-bottom: 2em;
     margin-left: 1em;
@@ -329,7 +329,6 @@ p {
   margin-top: 5em;
 }
 
-}
 
 @media only screen and (max-width: 886px) {
 
